@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:400,900');
+
+/* Global settings */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+/* font styles */
+.text-on-dark {
+    color: #fff;
+}
+
+.text-normal {
+    font-weight: 400;
+}
+
+/* General styles */
+.container {
+    width: 100%;
+    padding: 10px;
+}
+
+.billboardStructure {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.home_billboardImage {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/apple-blogging-coder-36990.jpg");
+}

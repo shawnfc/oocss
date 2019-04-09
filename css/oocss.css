@@ -1,0 +1,48 @@
+/* OOCSS: Structure, Size, Style */
+
+/* Button Structure */
+.btn {
+  display:inline-block;
+  zoom:1;
+  vertical-align:bottom;
+  text-align:center;
+  margin:10px 5px;
+  border-radius:3px;
+  text-decoration:none;
+  font-weight:700;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-shadow:0 1px 1px rgba(0,0,0,0.5);
+  box-shadow:0 1px 3px rgba(0,0,0,0.3),inset 0 1px 0 rgba(250,250,250,0.4);
+  -webkit-box-shadow:0 1px 3px rgba(0,0,0,0.3),inset 0 1px 0 rgba(250,250,250,0.4);
+  -moz-box-shadow:0 1px 3px rgba(0,0,0,0.3),inset 0 1px 0 rgba(250,250,250,0.4);
+}
+
+/* Button Size */
+.btn-small {
+  font-size:13px;
+  padding:5px 20px;
+}
+.btn-medium {
+  font-size:18px;
+  padding:8px 23px;
+}
+.btn-large {
+  font-size:24px;
+  padding:10px 25px;
+}
+
+/* Button Style */
+.btn-blue {
+  color:#FFF;
+  background:#00A4EF;
+}
+
+.btn-red {
+  color:#FFF;
+  background:rgb(196, 18, 18);
+}
+
+.btn-green {
+  color:#FFF;
+  background:rgb(38, 136, 38);
+}
